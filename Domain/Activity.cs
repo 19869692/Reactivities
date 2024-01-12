@@ -1,4 +1,6 @@
+using System.Collections;
 using System.ComponentModel.DataAnnotations;
+using System.Reflection.Metadata;
 
 namespace Domain
 {
@@ -18,6 +20,9 @@ namespace Domain
         public string City { get; set; }
 
         public string Venue { get; set; }
+
+        public bool IsCancelled {get; set;}
+        public ICollection<ActivityAttendee> Attendees {get; set;} = new List<ActivityAttendee>();
 
        
     }
