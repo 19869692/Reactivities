@@ -22,7 +22,7 @@ namespace Application.Activities
 
     public bool IsCancelled {get; set;}
 
-    public ICollection<Profile> Profiles {get; set;}
+    public ICollection<AttendeeDto> Profiles {get; set;}
 
   }
 }

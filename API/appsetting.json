@@ -2,8 +2,14 @@
   "Logging": {
     "LogLevel": {
       "Default": "Information",
-      "Microsoft.AspNetCore": "Warning"
+      "Microsoft.AspNetCore": "Warning",
+      "Microsoft.Hosting.Lifetime": "Information"
     }
   },
-  "AllowedHosts": "*"
+  "AllowedHosts": "*",
+  "Cloudinary": {
+    "CloudName": "dgl2moeic",
+    "ApiKey": "418234717226735",
+    "ApiSecret": "L0T95B-CI9AdGs5wv_FF_3LEzYU"
+  }
 }
